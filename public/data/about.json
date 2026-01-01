@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Agrinesia",
+        "image": "/assets/image/image_about/image_partner/agrinesia.png",
+        "link": ""
+    },
+    {
+        "name": "Biofarma",
+        "image": "/assets/image/image_about/image_partner/biofarma.png",
+        "link": ""
+    },
+    {
+        "name": "Faasri",
+        "image": "/assets/image/image_about/image_partner/faasri.png",
+        "link": ""
+    },
+    {
+        "name": "Fuji AC",
+        "image": "/assets/image/image_about/image_partner/logo-fujiac.png",
+        "link": ""
+    },
+    {
+        "name": "Gojek",
+        "image": "/assets/image/image_about/image_partner/logo-gojek.png",
+        "link": ""
+    },
+    {
+        "name": "IFF",
+        "image": "/assets/image/image_about/image_partner/iff.png",
+        "link": ""
+    },
+    {
+        "name": "Indofood Asahi",
+        "image": "/assets/image/image_about/image_partner/Indofood_Asahi.svg",
+        "link": ""
+    },
+    {
+        "name": "ISS",
+        "image": "/assets/image/image_about/image_partner/pt iss.png",
+        "link": ""
+    },
+    {
+        "name": "Kogen",
+        "image": "/assets/image/image_about/image_partner/kogen.png",
+        "link": ""
+    },
+    {
+        "name": "Mayoraa",
+        "image": "/assets/image/image_about/image_partner/mayoraa.png",
+        "link": ""
+    },
+    {
+        "name": "Perfetti",
+        "image": "/assets/image/image_about/image_partner/perfetti.png",
+        "link": ""
+    },
+    {
+        "name": "PinHome",
+        "image": "/assets/image/image_about/image_partner/Pinhome.png",
+        "link": ""
+    },
+    {
+        "name": "PT Indolakto",
+        "image": "/assets/image/image_about/image_partner/indolacto.png",
+        "link": ""
+    },
+    {
+        "name": "PT CBRE",
+        "image": "/assets/image/image_about/image_partner/pt_cbre.jpg",
+        "link": ""
+    },
+    {
+        "name": "Sampoerna",
+        "image": "/assets/image/image_about/image_partner/HM-Sampoerna.png",
+        "link": ""
+    }
+]

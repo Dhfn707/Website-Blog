@@ -1,0 +1,583 @@
+/* public/assets/css/about.css */
+
+/* ==================== Scroll Animations ==================== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.fade-in-up.delay-1 {
+  animation-delay: 0.1s;
+}
+.fade-in-up.delay-2 {
+  animation-delay: 0.2s;
+}
+.fade-in-up.delay-3 {
+  animation-delay: 0.3s;
+}
+.fade-in-up.delay-4 {
+  animation-delay: 0.4s;
+}
+.fade-in-up.delay-5 {
+  animation-delay: 0.5s;
+}
+.fade-in-up.delay-6 {
+  animation-delay: 0.6s;
+}
+
+/* Untuk elemen yang muncul saat scroll */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animasi khusus untuk staggered items */
+.scroll-reveal.staggered {
+  transition-duration: 0.6s;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ==================== Section Umum ==================== */
+.section-title {
+  color: #f1f8fd;
+  font-weight: 700;
+  margin-left: 87px;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  color: #f1f8fd;
+  font-weight: 600;
+  margin-left: 87px;
+  margin-bottom: 20px;
+}
+
+/* ==================== Tentang Kami ==================== */
+.about-section {
+  background-color: #4a8bb7;
+  padding: 70px 20px;
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+.about-container {
+  width: 100%;
+}
+
+.about-wrap {
+  max-width: 1540px;
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.about-header h2 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-text {
+  flex: 1;
+  color: #f1f8fd;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+p {
+  text-align: justify;
+}
+
+.about-text p {
+  margin-bottom: 15px;
+}
+
+/* ==================== Tentang AC Dikari ==================== */
+.section-title-center {
+  text-align: center;
+  font-size: 26px;
+  color: #19456b;
+  margin-bottom: 40px;
+}
+
+.ac-section {
+  background-color: #e1f4fe;
+  padding: 70px 20px;
+}
+
+.ac-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ac-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.ac-text {
+  flex: 1;
+  color: #19456b;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.ac-text p {
+  margin-bottom: 15px;
+}
+
+.ac-image img {
+  max-width: 650px;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+/* ==================== Visi & Misi Section ==================== */
+.vision-mission-section {
+  background-color: #e1f4fe;
+  padding: 80px 20px;
+}
+
+.section-vision {
+  color: #f1f8fd;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+/* ==================== Visi ==================== */
+.vision-container {
+  max-width: 1500px;
+  height: 600px;
+  margin: 0 auto 80px;
+  background-color: #19456b;
+  border-radius: 350px 20px 350px 20px;
+  padding: 60px;
+  color: #f1f8fd;
+  width: 100%;
+}
+
+.vision-content {
+  margin: 100px 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.vision-text {
+  flex: 1;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.vision-text p {
+  margin-top: 20px;
+}
+
+.vision-image img {
+  max-width: 550px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* ==================== Misi ==================== */
+.mission-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.mission-card {
+  background-color: #f2faff;
+  border-radius: 15px;
+  padding: 30px 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.mission-card img {
+  width: 70px;
+  margin-bottom: 20px;
+}
+
+.mission-card h6 {
+  padding-top: 30px;
+  color: #19456b;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.mission-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1280px) {
+  .vision-image {
+    width: 50%;
+  }
+
+  .ac-image {
+    width: 50%;
+  }
+}
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .about-container {
+    margin: 0 auto;
+  }
+
+  .section-title,
+  .section-subtitle {
+    margin-left: 0;
+    
+  }
+
+  .about-image img {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .about-text {
+    margin-right: 0;
+  }
+
+  .ac-content {
+    gap: 40px;
+  }
+
+  .vision-container {
+    height: auto;
+    border-radius: 250px 20px 250px 20px;
+    padding: 50px 40px;
+  }
+
+  .vision-content {
+    margin: 50px 20px 0;
+    gap: 40px;
+  }
+
+  .vision-image img {
+    max-width: 100%;
+  }
+
+  .mission-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .about-section,
+  .ac-section,
+  .vision-mission-section {
+    padding: 60px 20px;
+  }
+
+  .about-header h2 {
+    text-align: center;
+  }
+  .section-title,
+  .section-subtitle {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .section-title-center {
+    font-size: 24px;
+  }
+
+  .about-content,
+  .ac-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-image img {
+    margin: 0 auto;
+  }
+
+  .about-text,
+  .ac-text {
+    margin: 0;
+    text-align: justify;
+  }
+
+  .ac-image {
+    width: 100%;
+  }
+  .ac-image img {
+    margin-top: 0;
+  }
+
+  .vision-container {
+    height: auto;
+    border-radius: 150px 20px 150px 20px;
+    padding: 40px 30px;
+    margin-bottom: 60px;
+  }
+
+  .vision-content {
+    margin: 20px 0 0;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .section-vision {
+    margin-left: 0;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  .vision-image {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .vision-text {
+    font-size: 18px;
+  }
+
+  .mission-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .about-section,
+  .ac-section,
+  .vision-mission-section {
+    padding: 50px 15px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .section-subtitle {
+    font-size: 16px;
+  }
+
+  .section-title-center {
+    font-size: 20px;
+  }
+
+  .about-text,
+  .ac-text {
+    font-size: 14px;
+  }
+
+  .vision-container {
+    border-radius: 100px 15px 100px 15px;
+    padding: 30px 20px;
+  }
+
+  .vision-content {
+    margin: 10px 0 0;
+  }
+
+  .section-vision {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .vision-text {
+    font-size: 16px;
+  }
+
+  .mission-card {
+    padding: 25px 20px;
+  }
+
+  .mission-card h6 {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+}
+/* ==================== Partner Section ==================== */
+.partner-section {
+  padding: 40px 0;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.partner-title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #0d3b66;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.partner-card {
+  background: #f4fbff;
+  padding: 30px;
+  border-radius: 18px;
+  height: 160px; /* ukuran card mirip screenshot */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.partner-logo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  opacity: 0.95;
+}
+/* ==================== GLOBAL RESPONSIVE WIDTH ==================== */
+
+/* Laptop Besar: scale sedikit */
+@media (max-width: 1400px) {
+  .about-container,
+  .ac-container,
+  .vision-container,
+  .mission-container,
+  .partner-grid {
+    max-width: 95%;
+  }
+}
+
+/* Tablet Landscape */
+@media (max-width: 1200px) {
+  .about-container,
+  .ac-container,
+  .vision-container,
+  .mission-container,
+  .partner-grid {
+    max-width: 90%;
+  }
+
+  .about-image img,
+  .ac-image img,
+  .vision-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Tablet Portrait */
+@media (max-width: 900px) {
+  .about-container,
+  .ac-container,
+  .vision-container,
+  .mission-container,
+  .partner-grid {
+    max-width: 88%;
+  }
+  .mission-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Besar */
+@media (max-width: 768px) {
+  .about-container,
+  .ac-container,
+  .vision-container,
+  .mission-container,
+  .partner-grid {
+    max-width: 95%;
+  }
+
+  .partner-card {
+    height: 130px;
+  }
+}
+
+/* Mobile Kecil */
+@media (max-width: 480px) {
+  .about-container,
+  .ac-container,
+  .vision-container,
+  .mission-container,
+  .partner-grid {
+    max-width: 100%;
+  }
+  .about-header h2 {
+    text-align: center;
+  }
+  .about-header h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .partner-card {
+    height: 110px;
+    padding: 20px;
+  }
+  .partner-grid {
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 360px) {
+  .partner-card {
+    height: 95px;
+    padding: 15px;
+  }
+}

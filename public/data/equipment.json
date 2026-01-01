@@ -1,0 +1,127 @@
+[
+  { 
+    "title": "AC Split", 
+    "image": "ac-split.png", 
+    "imageGif": "ac-split.gif" 
+  },
+  { 
+    "title": "PAC (Portable AC)", 
+    "image": "pacu.png", 
+    "imageGif": "pacu.gif" 
+  },
+  {
+    "title": "AHU (Air Handling Unit)",
+    "image": "ahu.png",
+    "imageGif": "ahu.gif"
+  },
+  {
+    "title": "Ultrasonic Humidifier",
+    "image": "ultrasonic-humidifier.png",
+    "imageGif": "ultrasonic-humidifier.gif"
+  },
+  {
+    "title": "Air Cooled Chiller",
+    "image": "air-cooled-chiller.png",
+    "imageGif": "air-cooled-chiller.gif"
+  },
+  {
+    "title": "Exhaust Fan",
+    "image": "exhaust-fan.png",
+    "imageGif": "exhaust-fan.gif"
+  },
+  {
+    "title": "Split Duct",
+    "image": "split-duct.png",
+    "imageGif": "split-duct.gif"
+  },
+  { 
+    "title": "AHUP", 
+    "image": "ahup.png", 
+    "imageGif": "ahup.gif" 
+  },
+  {
+    "title": "Cold Storage",
+    "image": "cold-storage.png",
+    "imageGif": "cold-storage.gif"
+  },
+  {
+    "title": "Cooled Water Chiller",
+    "image": "cooled-water-chiller.png",
+    "imageGif": "cooled-water-chiller.gif"
+  },
+  {
+    "title": "AC Cassette",
+    "image": "ac-cassette.png",
+    "imageGif": "ac-cassette.gif"
+  },
+  {
+    "title": "Centrifugal Chiller",
+    "image": "centrifugal-chiller.png",
+    "imageGif": "centrifugal-chiller.gif"
+  },
+  {
+    "title": "FCU (Fan Coil Unit)",
+    "image": "fan-coil-unit.png",
+    "imageGif": "fan-coil-unit.gif"
+  },
+  {
+    "title": "Floor Standing Unit",
+    "image": "ac-standing-floor.png",
+    "imageGif": "ac-standing-floor.gif"
+  },
+  {
+    "title": "Cooling Tower",
+    "image": "cooling-tower.png",
+    "imageGif": "cooling-tower.gif"
+  },
+  {
+    "title": "Spot Cooling",
+    "image": "spot-cooling.png",
+    "imageGif": "spot-cooling.gif"
+  },
+  {
+    "title": "Evaporative Cooler",
+    "image": "evaporative-air-cooler.png",
+    "imageGif": "evaporative-air-cooler.gif"
+  },
+  {
+    "title": "Water Mist System",
+    "image": "mist-fan.png",
+    "imageGif": "mist-fan.gif"
+  },
+  {
+    "title": "Pompa (Pump)",
+    "image": "pump.png",
+    "imageGif": "pump.gif"
+  },
+  {
+    "title": "Dehumidifier",
+    "image": "dehumidifier.png",
+    "imageGif": "dehumidifier.gif"
+  },
+  {
+    "title": "Mini Chiller",
+    "image": "mini-chiller.png",
+    "imageGif": "mini-chiller.gif"
+  },
+  {
+    "title": "Humidifier",
+    "image": "humidifier.png",
+    "imageGif": "humidifier.gif"
+  },
+  {
+    "title": "Cooling Unit & AC Panel",
+    "image": "ac-panel.png",
+    "imageGif": "ac-panel.gif"
+  },
+  { 
+    "title": "Piping System", 
+    "image": "piping-system.png", 
+    "imageGif": "piping-system.gif" 
+  },
+  {
+    "title": "Centralized Chiller",
+    "image": "central-chiller.png",
+    "imageGif": "central-chiller.gif"
+  }
+]

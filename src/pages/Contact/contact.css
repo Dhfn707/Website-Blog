@@ -1,0 +1,327 @@
+.contact-section {
+  position: relative;
+  color: white;
+  padding: 3rem 2rem;
+  display: flex;
+  max-width: 1540px;
+  width: 100%;
+  min-height: 100vh; /* tambahkan ini agar full screen */
+  height: auto; /* ubah dari 100% ke auto */
+  justify-content: center;
+  align-items: center;
+  background-size: cover; /* tambahkan untuk background image */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-container {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 90%;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto 0; /* tambahkan untuk vertical centering yang lebih baik */
+}
+
+.contact-container h2 {
+  width: 100%;
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.service-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    var(--secondary-color) 0%,
+    var(--primary-dark) 100%
+  );
+  z-index: 1;
+}
+
+.contact-info-bruh {
+  position: relative;
+  z-index: 4;
+  flex: 1 1 45%;
+}
+
+.contact-info-bruh p {
+  margin-bottom: 1.5rem;
+  width: 70%;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.contact-form {
+  display: flex;
+  width: 550px;
+  height: auto;
+  flex-direction: column;
+  align-items: left;
+  gap: 12px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  max-width: 550px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  min-height: 140px;
+  resize: vertical;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.contact-form button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 26px;
+  min-height: 44px;
+  line-height: 1;
+  border-radius: 25px;
+  border: none;
+  background: var(--primary-color);
+  color: var(--text-color);
+  font-weight: 700;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: filter 0.3s ease;
+  flex: 1;
+}
+
+.contact-form-buttons {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-form-buttons button {
+  flex: 1;
+}
+
+.contact-form-buttons .btn-email {
+  background: var(--primary-dark);
+  color: var(--primary-color);
+}
+
+.contact-form-buttons .btn-whatsapp {
+  background: linear-gradient(135deg, #25d366 0%, #1ba952 100%);
+}
+
+.contact-form button svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  filter: brightness(1.1);
+  outline: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form button:active {
+  transform: translateY(0);
+}
+
+.form-alert {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.contact-illustration {
+  position: relative;
+  z-index: 4;
+}
+
+.contact-illustration img {
+  margin-top: 200px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 4;
+}
+
+/* Tablet Landscape & iPad Pro (834px - 1023px) */
+@media (max-width: 1200px) and (min-width: 834px) {
+  .contact-section {
+    padding: 2.5rem 2rem;
+  }
+
+  .contact-container {
+    gap: 2rem;
+  }
+
+  .contact-info {
+    max-width: 100%;
+  }
+
+  .contact-illustration {
+    order: -1;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .contact-illustration img {
+    max-width: 420px;
+    margin-top: 0;
+  }
+}
+
+/* Tablet Portrait & iPad (768px - 833px) */
+@media (max-width: 833px) and (min-width: 480px) {
+  .contact-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .contact-info-bruh {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .contact-illustration {
+    order: -1;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-illustration img {
+    max-width: 380px;
+    margin-top: 0;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+@media (max-width: 479px) {
+  .contact-section {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    min-height: auto;
+    max-width: 420px;
+  }
+
+  .contact-container {
+    max-width: 480px;
+  }
+
+  .contact-container h2 {
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+  }
+  .contact-info-bruh {
+    max-width: 400px;
+  }
+  .contact-info-bruh p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .contact-form {
+    width: 100%;
+    gap: 8px;
+  }
+
+  .contact-form label {
+    margin-bottom: 0.3rem;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px 14px;
+    margin-bottom: 0.8rem;
+    max-width: 400px;
+    font-size: 14px;
+  }
+
+  .contact-form textarea {
+    min-height: 120px;
+  }
+
+  .contact-form-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-form button {
+    max-width: 400px;
+    width: 100%;
+    padding: 12px 16px;
+    min-height: 46px;
+    font-size: 14px;
+  }
+
+  .contact-form button svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .contact-illustration {
+    order: -1;
+    width: 100%;
+  }
+
+  .contact-illustration img {
+    max-width: 240px;
+    margin: 0.5rem 0 1rem;
+  }
+}
+
+/* ==================== Scroll Reveal Animations ==================== */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}

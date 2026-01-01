@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Dasar-Dasar HVAC",
+        "description": "Pelajari fundamental sistem pendingin udara, komponen utama, dan prinsip kerja HVAC secara menyeluruh.",
+        "image": "Dasar-Dasar HVAC.webp"
+    },
+    {
+        "id": 2,
+        "title": "Instalasi AC Profesional",
+        "description": "Kuasai teknik instalasi AC yang benar, termasuk penempatan unit, refrigeran, dan sistem pipa.",
+        "image": "gambar Instalasi AC Profesional.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Perawatan dan Troubleshooting",
+        "description": "Pelajari cara merawat AC, diagnosa masalah, dan teknik perbaikan yang efektif dan aman.",
+        "image": "gambar perawatan ac.jpg"
+    }
+]

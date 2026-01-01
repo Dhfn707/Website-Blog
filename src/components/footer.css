@@ -1,0 +1,341 @@
+/* Footer Main Styles */
+    .main-footer {
+        background-color: #19456B;
+        width: 100%;
+        color: white;
+    }
+
+    .footer-container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 2.5fr 1fr 1fr 1.5fr;
+    }
+
+    /* Company Section */
+    .company-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo img {
+        width: 250px;
+        height: auto;
+    }
+
+    .company-info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info-block {
+        line-height: 1.7;
+    }
+
+    .info-block p {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.9);
+        margin: 3px 0;
+    }
+
+    .info-title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: white;
+    }
+
+    .contact-info {
+        margin-top: 10px;
+    }
+
+    .phone {
+        font-size: 15px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .email {
+        font-size: 14px !important;
+        color: rgba(255, 255, 255, 0.85) !important;
+    }
+
+    /* Links & Media Sections */
+    .footer-heading {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 25px;
+        color: white;
+    }
+
+    .links-section {
+        padding-top: 50px;
+    }
+
+    .media-section {
+        padding-top: 50px;
+    }
+
+    .footer-links {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer-links li {
+        line-height: 1.5;
+    }
+
+    .footer-links a {
+        color: rgba(255, 255, 255, 0.85);
+        text-decoration: none;
+        font-size: 14px;
+        transition: all 0.3s ease;
+        display: inline-block;
+        position: relative;
+    }
+
+    .footer-links a::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition: width 0.3s ease;
+    }
+
+    .footer-links a:hover {
+        color: white;
+        padding-left: 8px;
+    }
+
+    .footer-links a:hover::before {
+        width: 100%;
+    }
+
+    /* Download Section */
+    .download-section {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .download-button {
+        background: var(--bg-color);
+        color: var(--text-light);
+        padding: 22px 30px;
+        border-radius: 12px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 8px 24px rgba(33, 150, 243, 0.3);
+        transition: all 0.3s ease;
+    }
+
+    .download-button:hover {
+        transform: translateY(-3px);
+        color: var(--text-light);
+        box-shadow: 0 12px 32px var(--bg-color);
+    }
+
+    .download-text {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .download-label {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .download-now {
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 0.95;
+    }
+
+    .download-icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .download-icon svg {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* QR Section */
+    .qr-section {
+        text-align: center;
+    }
+
+    .qr-label {
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1.2px;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .qr-code {
+        background: white;
+        padding: 12px;
+        border-radius: 12px;
+        display: inline-block;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .qr {
+        width: 120px;
+        height: 120px;
+    }
+    /* Footer Bottom */
+    .footer-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+        padding: 25px 0;
+    }
+
+    .copyright-text {
+        text-align: center;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.85);
+        margin: 0;
+    }
+
+    .copyright-text a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: opacity 0.3s ease;
+    }
+
+    .copyright-text a:hover {
+        opacity: 0.8;
+        text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1200px) {
+        .footer-content {
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 40px;
+        }
+    }
+
+    @media (max-width: 968px) {
+        .footer-container {
+            padding: 0 30px;
+        }
+
+        .footer-content {
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 50px 0 40px;
+        }
+
+        .company-section {
+            grid-column: 1 / -1;
+        }
+
+        .download-section {
+            grid-column: 1 / -1;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .footer-container {
+            padding: 0 20px;
+        }
+
+        .footer-content {
+            grid-template-columns: 1fr;
+            gap: 35px;
+            padding: 40px 0 35px;
+        }
+
+        .footer-logo-text {
+            font-size: 28px;
+        }
+
+        .footer-logo-subtitle {
+            font-size: 7px;
+        }
+
+        .footer-heading {
+            text-align: left;
+            margin-left: 0;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .download-button {
+            padding: 20px 25px;
+        }
+
+        .download-label {
+            font-size: 18px;
+        }
+
+        .download-now {
+            font-size: 14px;
+        }
+
+        .download-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .qr-svg {
+            width: 110px;
+            height: 110px;
+        }
+
+        .copyright-text {
+            font-size: 12px;
+        }
+    }
+
+    /* Animation */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .footer-section {
+        animation: fadeInUp 0.6s ease;
+    }
+
+    .footer-section:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .footer-section:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .footer-section:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .footer-section:nth-child(4) {
+        animation-delay: 0.4s;
+    }

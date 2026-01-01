@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Pembersihan Reguler",
+        "description": "Pembersihan rutin pada unit indoor dan outdoor untuk menjaga kebersihan serta sirkulasi udara tetap lancar dan segar.",
+        "icon": "https://img.icons8.com/ios-glyphs/30/broom.png"
+    },
+    {
+        "id": 2,
+        "title": "Pembersihan Mendalam (Chemical & Mechanical)",
+        "description": "Pembersihan menggunakan bahan kimia dan metode mekanis untuk menghilangkan kotoran, jamur, dan kerak di evaporator serta kondensor.",
+        "icon": "https://img.icons8.com/external-glyph-icons-maxicons/85/external-chemical-types-of-science-glyph-glyph-icons-maxicons.png"
+    },
+    {
+        "id": 3,
+        "title": "Tenaga Ahli AC & Pendingin",
+        "description": "Penyediaan tenaga kerja profesional untuk instalasi, perawatan, dan perbaikan sistem pendingin.",
+        "icon": "https://img.icons8.com/ios-filled/50/worker-male.png"
+    },
+    {
+        "id": 4,
+        "title": "Desain, Konsultasi, Instalasi, dan Pengujian",
+        "description": "Layanan desain sistem pendingin, konsultasi teknis, pemasangan profesional, serta pengujian performa.",
+        "icon": "https://img.icons8.com/ios-filled/50/maintenance.png"
+    },
+    {
+        "id": 5,
+        "title": "Perawatan Preventif & Perbaikan",
+        "description": "Pemeriksaan dan perawatan berkala untuk mencegah kerusakan serta penanganan berbagai masalah teknis pada sistem pendingin.",
+        "icon": "https://img.icons8.com/dusk/64/work--v1.png"
+    },
+    {
+        "id": 6,
+        "title": "Penjualan & Servis Suku Cadang",
+        "description": "Penyediaan berbagai suku cadang resmi dan layanan penggantian cepat untuk menjaga kinerja optimal unit AC.",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-parts-automotive-dealership-flaticons-lineal-color-flat-icons.png"
+    },
+    {
+        "id": 7,
+        "title": "Pembersihan Tabung Kondensor",
+        "description": "Pembersihan tabung kondensor secara profesional untuk meningkatkan efisiensi pertukaran panas dan memperpanjang usia peralatan.",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-condenser-laboratory-flaticons-lineal-color-flat-icons-4.png"
+    },
+    {
+        "id": 8,
+        "title": "Pembuatan Ducting Ventilasi",
+        "description": "Pembuatan dan pemasangan sistem ducting untuk sirkulasi udara ruangan yang sehat dan efisien.",
+        "icon": "https://img.icons8.com/external-others-pike-picture/50/external-Ventilation-smoke-others-pike-picture-3.png"
+    },
+    {
+        "id": 9,
+        "title": "Analisis Kapasitas Pendinginan",
+        "description": "Analisis kapasitas pendinginan untuk menilai efisiensi energi dan memberikan rekomendasi peningkatan performa sistem AC.",
+        "icon": "https://img.icons8.com/ios-glyphs/30/analytics.png"
+    }
+]

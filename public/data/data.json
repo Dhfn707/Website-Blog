@@ -1,0 +1,249 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "title": "Pembersihan Reguler",
+            "description": "Pembersihan rutin pada unit indoor dan outdoor untuk menjaga kebersihan serta sirkulasi udara tetap lancar dan segar.",
+            "icon": "https://img.icons8.com/ios-glyphs/30/broom.png"
+        },
+        {
+            "id": 2,
+            "title": "Pembersihan Mendalam (Chemical & Mechanical)",
+            "description": "Pembersihan menggunakan bahan kimia dan metode mekanis untuk menghilangkan kotoran, jamur, dan kerak di evaporator serta kondensor.",
+            "icon": "https://img.icons8.com/external-glyph-icons-maxicons/85/external-chemical-types-of-science-glyph-glyph-icons-maxicons.png"
+        },
+        {
+            "id": 3,
+            "title": "Tenaga Ahli AC & Pendingin",
+            "description": "Penyediaan tenaga kerja profesional untuk instalasi, perawatan, dan perbaikan sistem pendingin.",
+            "icon": "https://img.icons8.com/ios-filled/50/worker-male.png"
+        },
+        {
+            "id": 4,
+            "title": "Desain, Konsultasi, Instalasi, dan Pengujian",
+            "description": "Layanan desain sistem pendingin, konsultasi teknis, pemasangan profesional, serta pengujian performa.",
+            "icon": "https://img.icons8.com/ios-filled/50/maintenance.png"
+        },
+        {
+            "id": 5,
+            "title": "Perawatan Preventif & Perbaikan",
+            "description": "Pemeriksaan dan perawatan berkala untuk mencegah kerusakan serta penanganan berbagai masalah teknis pada sistem pendingin.",
+            "icon": "https://img.icons8.com/dusk/64/work--v1.png"
+        },
+        {
+            "id": 6,
+            "title": "Penjualan & Servis Suku Cadang",
+            "description": "Penyediaan berbagai suku cadang resmi dan layanan penggantian cepat untuk menjaga kinerja optimal unit AC.",
+            "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-parts-automotive-dealership-flaticons-lineal-color-flat-icons.png"
+        },
+        {
+            "id": 7,
+            "title": "Pembersihan Tabung Kondensor",
+            "description": "Pembersihan tabung kondensor secara profesional untuk meningkatkan efisiensi pertukaran panas dan memperpanjang usia peralatan.",
+            "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-condenser-laboratory-flaticons-lineal-color-flat-icons-4.png"
+        },
+        {
+            "id": 8,
+            "title": "Pembuatan Ducting Ventilasi",
+            "description": "Pembuatan dan pemasangan sistem ducting untuk sirkulasi udara ruangan yang sehat dan efisien.",
+            "icon": "https://img.icons8.com/external-others-pike-picture/50/external-Ventilation-smoke-others-pike-picture-3.png"
+        },
+        {
+            "id": 9,
+            "title": "Analisis Kapasitas Pendinginan",
+            "description": "Analisis kapasitas pendinginan untuk menilai efisiensi energi dan memberikan rekomendasi peningkatan performa sistem AC.",
+            "icon": "https://img.icons8.com/ios-glyphs/30/analytics.png"
+        }
+    ],
+    "blogs": {
+        "featured": [
+            {
+                "image": "gambar merawat ac.jpeg",
+                "alt": "Cara Merawat AC",
+                "category": "promo",
+                "link": ""
+            },
+            {
+                "image": "ahu 2.jpg",
+                "alt": "Air Handling Unit",
+                "category": "pengetahuan",
+                "link": ""
+            },
+            {
+                "image": "cara hemat ac.jpg",
+                "alt": "Tips Hemat Listrik",
+                "category": "tips",
+                "link": ""
+            },
+            {
+                "image": "bioskop.jpg",
+                "alt": "Fakta Udara Dingin",
+                "category": "hiburan",
+                "link": ""
+            }
+        ],
+        "posts": [
+            {
+                "date": "2025-10-01",
+                "title": "Cara Merawat AC Agar Tetap Dingin",
+                "excerpt": "Pastikan AC selalu bersih dan lakukan perawatan rutin untuk menjaga performa serta efisiensi energi.",
+                "image": "gambar merawat ac.jpeg",
+                "category": "tips",
+                "slug": "cara-merawat-ac"
+            },
+            {
+                "date": "2025-10-05",
+                "title": "Apa Itu AHU (Air Handling Unit)?",
+                "excerpt": "AHU adalah sistem yang berfungsi mengatur sirkulasi udara dalam gedung agar tetap bersih, sejuk, dan nyaman.",
+                "image": "ahu 2.jpg",
+                "category": "pengetahuan",
+                "slug": "apa-itu-ahu"
+            },
+            {
+                "date": "2025-10-10",
+                "title": "Promo Servis AC Bulan Oktober!",
+                "excerpt": "Nikmati potongan harga 20% untuk semua layanan servis AC rumah dan kantor selama bulan Oktober!",
+                "image": "promosi_oktober.jpg",
+                "category": "promo",
+                "slug": "promo-oktober"
+            },
+            {
+                "date": "2025-11-10",
+                "title": "Promo Servis AC Bulan November!",
+                "excerpt": "Nikmati potongan harga 25% untuk semua layanan servis AC rumah dan kantor selama bulan November!",
+                "image": "promosi_november.jpg",
+                "category": "promo",
+                "slug": "promo-november"
+            },
+            {
+                "date": "2025-10-14",
+                "title": "AC Pertama Kali Dipakai di Bioskop",
+                "excerpt": "Tahun 1925, bioskop Rivoli Theater di New York jadi tempat pertama yang pasang AC.",
+                "image": "bioskop.jpg",
+                "category": "hiburan",
+                "slug": "ac-di-bioskop"
+            },
+            {
+                "date": "2025-10-20",
+                "title": "Diciptakan Bukan Untuk Mendinginkan Orang",
+                "excerpt": "Awalnya orang datang buat nonton film, tapi akhirnya pada betah karena bisa sekalian ngadem.",
+                "image": "ac pertama.jpg",
+                "category": "hiburan",
+                "slug": "ac-bukan-untuk-mendinginkan"
+            },
+            {
+                "date": "2025-10-18",
+                "title": "Perbedaan VRV dan VRF System",
+                "excerpt": "Memahami perbedaan antara sistem VRV dan VRF untuk menentukan yang paling sesuai dengan kebutuhan bangunan Anda.",
+                "image": "VRV-VS-VRF.jpg",
+                "category": "pengetahuan",
+                "slug": "vrv-vs-vrf"
+            },
+            {
+                "date": "2025-10-22",
+                "title": "Tips Hemat Listrik dengan AC",
+                "excerpt": "Atur suhu AC di 24-26°C dan gunakan timer untuk menghemat konsumsi listrik hingga 30%.",
+                "image": "cara hemat ac.jpg",
+                "category": "tips",
+                "slug": "tips-hemat-listrik"
+            }
+        ]
+    },
+    "partners": [
+        {
+            "name": "Agrinesia",
+            "image": "image/image_about/image_partner/agrinesia.png",
+            "link": ""
+        },
+        {
+            "name": "Biofarma",
+            "image": "image/image_about/image_partner/biofarma.png",
+            "link": ""
+        },
+        {
+            "name": "Faasri",
+            "image": "image/image_about/image_partner/faasri.png",
+            "link": ""
+        },
+        {
+            "name": "Fuji AC",
+            "image": "image/image_about/image_partner/logo-fujiac.png",
+            "link": ""
+        },
+        {
+            "name": "Gojek",
+            "image": "image/image_about/image_partner/logo-gojek.png",
+            "link": ""
+        },
+        {
+            "name": "IFF",
+            "image": "image/image_about/image_partner/iff.png",
+            "link": ""
+        },
+        {
+            "name": "Indofood Asahi",
+            "image": "image/image_about/image_partner/Indofood_Asahi.svg",
+            "link": ""
+        },
+        {
+            "name": "ISS",
+            "image": "image/image_about/image_partner/iss.jpg",
+            "link": ""
+        },
+        {
+            "name": "Kogen",
+            "image": "image/image_about/image_partner/kogen.png",
+            "link": ""
+        },
+        {
+            "name": "Mayoraa",
+            "image": "image/image_about/image_partner/mayoraa.png",
+            "link": ""
+        },
+        {
+            "name": "Perfetti",
+            "image": "image/image_about/image_partner/perfetti.png",
+            "link": ""
+        },
+        {
+            "name": "PinHome",
+            "image": "image/image_about/image_partner/pinhome.png",
+            "link": ""
+        },
+        {
+            "name": "PT Indolakto",
+            "image": "image/image_about/image_partner/indolakto.png",
+            "link": ""
+        },
+        {
+            "name": "PT CBRE",
+            "image": "image/image_about/image_partner/pt_cbre.jpg",
+            "link": ""
+        },
+        {
+            "name": "Sampoerna",
+            "image": "image/image_about/image_partner/HM-Sampoerna.png",
+            "link": ""
+        }
+    ],
+    "trainings": [
+        {
+            "id": 1,
+            "title": "Dasar-Dasar HVAC",
+            "description": "Pelajari fundamental sistem pendingin udara, komponen utama, dan prinsip kerja HVAC secara menyeluruh.",
+            "image": "ac_split.png"
+        },
+        {
+            "id": 2,
+            "title": "Instalasi AC Profesional",
+            "description": "Kuasai teknik instalasi AC yang benar, termasuk penempatan unit, refrigeran, dan sistem pipa.",
+            "image": "ahu.png"
+        },
+        {
+            "id": 3,
+            "title": "Perawatan dan Troubleshooting",
+            "description": "Pelajari cara merawat AC, diagnosa masalah, dan teknik perbaikan yang efektif dan aman.",
+            "image": "pac.png"
+        }
+    ]
+}

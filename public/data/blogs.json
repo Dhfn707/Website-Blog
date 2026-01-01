@@ -1,0 +1,193 @@
+{
+  "featured": [
+    {
+      "image": "promo bulan.jpeg",
+      "alt": "Cara Merawat AC",
+      "category": "promo",
+      "link": ""
+    },
+    {
+      "image": "pengetahuan_ac.jpeg",
+      "alt": "Perbedaan Ac Inverter dan Ac Non-inverter",
+      "category": "pengetahuan",
+      "link": ""
+    },
+    {
+      "image": "tips_ac.jpeg",
+      "alt": "Tips Hemat Listrik dengan AC",
+      "category": "tips",
+      "link": ""
+    },
+    {
+      "image": "trouble shoting_hib.jpeg",
+      "alt": "Trouble Shoooting With Ac Dikari",
+      "category": "hiburan",
+      "link": ""
+    }
+  ],
+  "posts": [
+    {
+      "date": "2025-08-12",
+      "title": "Mengenal Time Sleep AC",
+      "excerpt": "Time Sleep pada AC adalah fitur pengatur waktu yang menyesuaikan suhu secara bertahap saat tidur agar lebih nyaman dan hemat listrik.",
+      "image": "menegenal fitur sleep time ac .jpeg",
+      "category": "pengetahuan",
+      "link": "https://www.instagram.com/reel/DNPpjc6tfQo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNW"
+    },
+    {
+      "date": "2025-07-23",
+      "title": "Serba Serbi Relokasi By Acdikari",
+      "excerpt": "Serba-Serbi Relokasi ACRelokasi AC adalah proses memindahkan unit AC ke lokasi baru yang memerlukan pengecekan pipa, kabel, dan freon agar AC tetap bekerja normal dan dingin.",
+      "image": "serba serbi relokasi by acdikari.jpeg",
+      "category": "pengetahuan",
+      "link": "https://www.instagram.com/reel/DMb8jGByAQr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="   
+       },
+    {
+      "date": "2025-01-12",
+      "title": "Perbedaan Ac Inverter dan Ac Non-inverter",
+      "excerpt": "Perbedaan AC Inverter dan AC Non-Inverter\nAC Inverter lebih hemat listrik dan suhu stabil, sedangkan AC Non-Inverter lebih boros karena kompresor nyala–mati.",
+      "image": "pengetahuan_ac.jpeg",
+      "category": "pengetahuan",
+      "link": "https://www.instagram.com/reel/DEukYd0gWC4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+    {
+      "date": "2025-07-08",
+      "title": "Promo Servis AC Bulan Juli!", 
+      "excerpt":" Promo bulan ini: Gratis pemeriksaan AC setiap cuci 2 unit AC, order via aplikasi ACD.",
+      "image": "promo bulan.jpeg",
+      "category": "promo",
+      "link": "https://www.instagram.com/p/DL1kXgSxmj3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+    {
+      "date": "2025-06-22",
+      "title": "Trouble Shoooting With Ac Dikari",
+      "excerpt": "Troubleshooting AC\nTroubleshooting AC adalah proses pengecekan untuk menemukan penyebab AC bermasalah agar bisa diperbaiki.",
+      "image": "trouble shoting_hib.jpeg",
+      "category": "hiburan",
+      "link": "https://www.instagram.com/reel/DLMgO75pviP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+    {
+      "date": "2025-06-01",
+      "title": "Troubleshooting AC",
+      "excerpt": "terasa panas atau tidak dingin, biasanya disebabkan oleh filter kotor, freon berkurang, atau aliran udara yang terhambat.",
+      "image": "trouble shoting_hiburan.jpeg",
+      "category": "hiburan",
+      "link": "https://www.instagram.com/reel/DLjfTFiplih/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+    {
+      "date": "2025-08-27",
+      "title": "Troubleshooting AC",
+      "excerpt": "Jika unit AC tiba-tiba menyemburkan air, solusinya adalah membersihkan saluran pembuangan (drain), memastikan kemiringan unit benar, dan mengecek kemungkinan penyumbatan kotoran.",
+      "image": "troubl.jpeg",
+      "category": "hiburan",
+      "link": "https://www.instagram.com/reel/DN1wtedaicI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+    {
+      "date": "2025-02-03",
+      "title": "Tips Hemat Listrik dengan AC",
+      "excerpt": "Atur suhu AC di 24-26°C dan gunakan timer untuk menghemat konsumsi listrik hingga 30%.",
+      "image": "tips_ac.jpeg",
+      "category": "tips",
+      "link": "https://www.instagram.com/reel/DFna4egvbgi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+    {
+      "date": "2025-01-06",
+      "title": "Tips Membeli AC Baru",
+      "excerpt": "Pilih AC sesuai ukuran ruangan, perhatikan daya listrik, dan sesuaikan jenis AC (inverter atau non-inverter) dengan kebutuhan pemakaian.",
+      "image": "tips membeli.jpeg",
+      "category": "tips",
+      "link": "https://www.instagram.com/reel/DEecybBBAzz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    },
+     {
+      "date": "2025-01-04",
+      "title": "Pertimbangan Memebeli Ac Baru",
+      "excerpt": "Sebelum membeli AC, pertimbangkan ukuran ruangan, kapasitas PK, konsumsi listrik, serta jenis AC agar sesuai dengan kebutuhan dan penggunaan sehari-har",
+      "image": "tips dan trick ac .jpeg",
+      "category": "tips",
+      "link": "https://www.instagram.com/p/DEZEbcipESd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+    }
+  ],
+  "featuredContent": {
+    "pengetahuan": {
+      "title": "Informasi Seputar HVAC yang Mungkin Anda Belum Ketahui",
+      "description": "Pelajari teknologi terkini, sistem pendingin, dan fakta menarik seputar HVAC"
+    },
+    "tips": {
+      "title": "Tips & Trik Merawat AC Agar Awet dan Hemat Listrik",
+      "description": "Panduan praktis untuk menjaga AC tetap dingin dan menghemat tagihan listrik Anda"
+    },
+    "hiburan": {
+      "title": "Fakta Unik dan Menarik Seputar Dunia HVAC",
+      "description": "Temukan cerita seru, trivia, dan hal-hal menarik tentang pendingin udara"
+    },
+    "promo": {
+      "title": "Penawaran Spesial & Promo Menarik Bulan Ini",
+      "description": "Jangan lewatkan diskon dan paket hemat untuk servis dan instalasi AC"
+    }
+  },
+  "reviews": [
+    {
+      "name": "Andi H.",
+      "date": "2025-09-01",
+      "text": "Teknisi cepat dan kerja rapi, AC kembali dingin!",
+      "rating": 5,
+      "image": "ac 2.jpg"
+    },
+    {
+      "name": "Sari P.",
+      "date": "2025-09-10",
+      "text": "Pelayanan ramah dan profesional. Direkomendasikan.",
+      "rating": 5,
+      "image": "gambar merawat ac.jpeg"
+    },
+    {
+      "name": "Budi R.",
+      "date": "2025-09-15",
+      "text": "Biaya transparan, hasil memuaskan.",
+      "rating": 4,
+      "image": "promosi_november.jpg"
+    },
+    {
+      "name": "Maya L.",
+      "date": "2025-09-20",
+      "text": "Cepat tanggap dan solutif. Terima kasih.",
+      "rating": 5,
+      "image": "ahu 2.jpg"
+    },
+    {
+      "name": "Riko S.",
+      "date": "2025-09-28",
+      "text": "Teknisi berpengalaman dan ramah.",
+      "rating": 5,
+      "image": "VRV-VS-VRF.jpg"
+    },
+    {
+      "name": "Dewi N.",
+      "date": "2025-10-05",
+      "text": "Sangat membantu, service tepat waktu.",
+      "rating": 4,
+      "image": "cara hemat ac.jpg"
+    },
+    {
+      "name": "Tono G.",
+      "date": "2025-10-12",
+      "text": "Harga bersaing dan kerja bagus.",
+      "rating": 4,
+      "image": "bioskop.jpg"
+    },
+    {
+      "name": "Rina K.",
+      "date": "2025-10-20",
+      "text": "Pekerjaan rapi dan cepat selesai.",
+      "rating": 5,
+      "image": "ahu image.jpg"
+    },
+    {
+      "name": "Eko Y.",
+      "date": "2025-10-25",
+      "text": "Rekomendasi untuk yang cari teknisi handal.",
+      "rating": 5,
+      "image": "ac pertama.jpg"
+    }
+  ]
+}

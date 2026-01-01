@@ -1,0 +1,420 @@
+/* ==================== Career Hero Section ==================== */
+.karir-hero-section {
+    position: relative;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: var(--primary-dark);
+    padding: 80px 20px;
+    width: 1540px;
+    margin: 0 auto;
+}
+
+.karir-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.karir-hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.karir-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        135deg,
+        var(--secondary-color) 0%,
+        var(--primary-dark) 100%
+    );
+    z-index: 1;
+}
+
+.karir-hero-container {
+    max-width: 1330px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    width: 90%;
+}
+
+.karir-hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f1f8fd;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    animation: fadeInUp 0.8s ease-out;
+    font-family: "Poppins", sans-serif;
+}
+
+.karir-hero-description {
+    font-size: 18px;
+    color: #f1f8fd;
+    line-height: 1.6;
+    opacity: 0.95;
+    max-width: 600px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-out 0.2s both;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ==================== Career Section ==================== */
+.career-section {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.career-container {
+    width: 90%;
+    max-width: 1400px;
+}
+
+.career-intro-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 80px;
+    padding: 60px 0;
+}
+
+.career-intro-content h2 {
+    color: var(--text-color);
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.3;
+}
+
+.career-intro-content p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 36px;
+}
+
+.career-intro-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.career-intro-image img:hover {
+    transform: translateY(-8px);
+}
+
+.career-intro-highlight {
+    display: flex;
+    gap: 40px;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.highlight-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--primary-dark);
+    line-height: 1;
+}
+
+.highlight-text {
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+}
+
+/* ==================== Animations ==================== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Tablet & Desktop (min-width: 781px) - Image Left, Content Right */
+@media (min-width: 781px) {
+    .career-intro-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        align-items: center;
+        margin-bottom: 80px;
+        padding: 60px 0;
+    }
+
+    /* Order: Image first (left) */
+    .career-intro-image {
+        order: 1;
+    }
+
+    /* Order: Content second (right) */
+    .career-intro-content {
+        order: 2;
+    }
+}
+
+/* Mobile (max-width: 780px) - Vertical Stack */
+@media (max-width: 780px) {
+    .career-intro-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 60px;
+        padding: 40px 0;
+    }
+
+    /* Content on top */
+    .career-intro-content {
+        order: 1;
+    }
+
+    /* Image below */
+    .career-intro-image {
+        order: 2;
+    }
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .karir-hero-title {
+        font-size: 36px;
+    }
+
+    .career-intro-content h2 {
+        font-size: 32px;
+    }
+
+    .career-intro-highlight {
+        gap: 30px;
+    }
+
+    .career-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .career-intro h2 {
+        font-size: 28px;
+    }
+}
+
+/* Mobile Landscape (max-width: 768px) */
+@media (max-width: 768px) {
+    .karir-hero-section {
+        min-height: 300px;
+        padding: 60px 20px;
+    }
+
+    .karir-hero-title {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .karir-hero-description {
+        font-size: 16px;
+    }
+
+    .career-section {
+        padding: 40px 15px;
+    }
+
+    .career-intro-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-bottom: 50px;
+        padding: 30px 0;
+    }
+
+    .career-intro-content h2 {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .career-intro-content p {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .highlight-number {
+        font-size: 24px;
+    }
+
+    .highlight-text {
+        font-size: 12px;
+    }
+
+    .career-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .career-intro {
+        margin-bottom: 40px;
+    }
+
+    .career-intro h2 {
+        font-size: 24px;
+    }
+
+    .career-intro p {
+        font-size: 14px;
+    }
+
+    .career-card {
+        padding: 20px;
+    }
+
+    .career-header h3 {
+        font-size: 18px;
+    }
+
+    .career-actions {
+        flex-direction: column;
+    }
+
+    .btn-download,
+    .btn-apply {
+        width: 100%;
+    }
+}
+
+/* Mobile Portrait (max-width: 640px) */
+@media (max-width: 640px) {
+    .karir-hero-section {
+        min-height: 280px;
+        padding: 50px 15px;
+    }
+
+    .karir-hero-title {
+        font-size: 24px;
+    }
+
+    .karir-hero-description {
+        font-size: 14px;
+    }
+
+    .career-section {
+        padding: 30px 15px;
+    }
+
+    .career-card {
+        padding: 18px;
+    }
+
+    .career-header {
+        padding-bottom: 12px;
+    }
+
+    .career-header h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .info-item {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .career-description p {
+        font-size: 13px;
+    }
+
+    .career-requirements {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+
+    .career-requirements li {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .btn-download,
+    .btn-apply {
+        padding: 10px 12px;
+        font-size: 12px;
+        gap: 6px;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .karir-hero-section {
+        min-height: 250px;
+        padding: 40px 15px;
+    }
+
+    .karir-hero-title {
+        font-size: 20px;
+    }
+
+    .karir-hero-description {
+        font-size: 13px;
+    }
+
+    .career-intro h2 {
+        font-size: 20px;
+    }
+
+    .career-intro p {
+        font-size: 13px;
+    }
+
+    .career-card {
+        padding: 16px;
+    }
+
+    .career-header h3 {
+        font-size: 15px;
+    }
+
+    .info-item {
+        font-size: 12px;
+    }
+
+    .career-description p {
+        font-size: 12px;
+    }
+
+    .btn-download,
+    .btn-apply {
+        font-size: 11px;
+        padding: 9px 10px;
+    }
+}
